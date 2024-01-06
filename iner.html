@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="stylesheet" href="./scss/adaptive/adaptability.css">
+    <link rel="shortcut icon" href="./favicon/calculator_icon.ico" type="image/x-icon">
+    <script defer src="script.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <header class="header">
+        <img class="header__img" src="./img/seo-social.svg" alt="">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li><a href="https://okcalc.com/ru/" target="_blank">OKCALC</a></li>
+                <li><a href="https://www.desmos.com/scientific?lang=ru" target="_blank">Desmos</a></li>
+                <li><a href="https://mathsolver.microsoft.com/ru/algebra-calculator" target="_blank">Math Solver</a></li>
+                <li><a href="https://www.mathway.com/ru/Algebra" target="_blank">Mathway</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main__form">
+            <h1 class="main__title">Calculator</h1>
+            <input class="main__num" id="num-1" type="number" placeholder="Первое число">
+            <input class="main__num" id="num-2" type="number" placeholder="Второе число">
+            <div class="main__buttons">
+                <input class="main__butt" id="plus" type="submit" value="+">
+                <input class="main__butt" id="minus" type="submit" value="-">
+                <input class="main__butt" id="multiply" type="submit" value="x">
+                <input class="main__butt" id="share" type="submit" value="÷">
+            </div>
+            <div class="main__btn">
+                <input class="main__button" id="btn" type="submit" value="Нажать">
+            </div>
+            <p class="main__result" id="result"></p>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__text">
+            <p>The creator of this site is <a class="footer__link" href="https://vk.com/vbgf_jktfrttttt" target="_blank">Vanya Sukhozadov</a></p>
+        </div>
+    </footer>
+</body>
+</html>

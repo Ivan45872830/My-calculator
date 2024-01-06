@@ -1,0 +1,264 @@
+@media (max-width: 1246px) {
+  .header {
+    width: 1445px;
+    gap: 50px;
+    padding: 0 60px;
+  }
+}
+@media (max-width: 1246px) {
+  .main {
+    width: 1445px;
+  }
+}
+@media (max-width: 1246px) {
+  .footer {
+    width: 1445px;
+  }
+}
+@media (max-width: 1024px) {
+  .main {
+    height: 726px;
+  }
+}
+@media (max-width: 768px) {
+  .main {
+    height: 1030px;
+  }
+}
+@media (max-width: 413px) {
+  .main {
+    height: 4700px;
+  }
+}
+@media (max-width: 426px) {
+  .header {
+    height: 290px;
+  }
+  .header__list {
+    display: flex;
+    gap: 70px;
+  }
+  a {
+    font-size: 43px;
+  }
+  .main {
+    display: flex;
+    align-items: flex-start;
+    padding: 120px 0 0 0;
+    height: 1710px;
+  }
+  .main__title {
+    font-size: 100px;
+  }
+  .main__form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 1200px;
+  }
+  .main__num {
+    height: 100px;
+    width: 1000px;
+    font-size: 50px;
+  }
+  .main ::-moz-placeholder {
+    font-size: 50px;
+  }
+  .main ::placeholder {
+    font-size: 50px;
+  }
+  .main__buttons {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+    gap: 50px;
+  }
+  .main__butt {
+    height: 100px;
+  }
+  .main__button {
+    height: 90px;
+    width: 1000px;
+    font-size: 40px;
+  }
+  .main__result {
+    height: 120px;
+    font-size: 90px;
+  }
+  .footer {
+    height: 250px;
+  }
+  .footer__text {
+    text-align: center;
+    font-size: 40px;
+    padding: 80px 0 0 0;
+  }
+}
+@media (max-width: 376px) {
+  .main {
+    height: 1935px;
+  }
+}
+@media (max-width: 376px) {
+  .header {
+    width: 1194px;
+  }
+  .header__list {
+    display: flex;
+    gap: 50px;
+  }
+  .main {
+    width: 1194px;
+  }
+  .footer {
+    width: 1194px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  padding: 0 18px;
+}
+.header__list {
+  display: flex;
+  gap: 140px;
+}
+.header li {
+  list-style-type: none;
+  font-size: 30px;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+  padding: 55px 30px;
+  border-radius: 19px;
+  transition: all 0.3s;
+}
+.header a:hover {
+  background-color: black;
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(36, 50, 115);
+}
+.main__title {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+.main__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+  background-color: rgb(16, 26, 70);
+  border-radius: 19px;
+  box-shadow: 4px 4px 9px black;
+}
+.main__num {
+  width: 700px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 12px;
+  padding: 0 9px;
+}
+.main ::-moz-placeholder {
+  font-size: 20px;
+}
+.main ::placeholder {
+  font-size: 20px;
+}
+.main__buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.main__butt {
+  font-size: 20px;
+  height: 35px;
+}
+.main__butt:nth-child(1) {
+  background-color: rgb(5, 126, 5);
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+}
+.main__butt:nth-child(2) {
+  background-color: rgb(143, 18, 18);
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+.main__butt:nth-child(3) {
+  background-color: rgb(18, 18, 162);
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+.main__butt:nth-child(4) {
+  background-color: rgb(167, 167, 16);
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+}
+.main__butt:nth-child(1):hover {
+  background-color: rgb(10, 194, 10);
+}
+.main__butt:nth-child(2):hover {
+  background-color: rgb(255, 0, 0);
+}
+.main__butt:nth-child(3):hover {
+  background-color: rgb(0, 0, 255);
+}
+.main__butt:nth-child(4):hover {
+  background-color: rgb(255, 255, 0);
+}
+.main__button {
+  width: 710px;
+  height: 45px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(16, 26, 70);
+  border: 1px solid blue;
+  color: white;
+  border-radius: 19px;
+}
+.main__button:hover {
+  background-color: rgb(68, 92, 153);
+}
+.main__button:active {
+  background-color: rgb(214, 221, 242);
+  color: black;
+}
+.main__result {
+  border-bottom: 1px solid blue;
+  height: 50px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.footer__text {
+  text-align: center;
+}
+.footer__link {
+  color: white;
+}/*# sourceMappingURL=main.css.map */
